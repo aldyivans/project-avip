@@ -1,0 +1,20 @@
+.sidebar s1 {
+    grid-area: s1;
+    background-color: white;
+}
+.sidebar s2 {
+    grid-area: s2;
+    background-color:whitesmoke;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    's1 s2 s2 s2';
+}
+
+.grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
